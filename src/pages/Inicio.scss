@@ -1,0 +1,107 @@
+
+
+.home{
+    display: block;
+    margin-left: 30px;
+    padding: 0px 10px 10px 10px;
+}
+.cabecera h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size:  30px;
+    margin: 20px;
+    color:var(--contrast-color);
+    text-decoration:underline;
+    text-underline-offset: 10px;
+    @media screen and (min-width: 1200px){
+      font-weight: 300;
+      font-size:  60px;
+    }
+}
+.home h2{
+    color:var(--contrast-color);
+    font-weight: lighter;
+    margin: 5px 20px;
+    font-size: 20px;
+    font-weight: 900;
+    @media screen and (min-width: 576px){
+     font-size: 30px; 
+    }
+}
+p{
+   color:var(--contrast-color);
+   margin-top: 20px; 
+   font-weight: 300;
+   font-size: 28px;
+   padding: 15px;
+
+}
+ strong{
+    color: var(--color-bg);
+ }
+
+@media screen and (min-width: 1200px){
+  .home{
+    display: block;
+    margin-left: 300px;
+    padding: 0px 0px 40px 0px;
+}
+
+  }
+ /* ----------------------------------------------- */
+/* ICONOS                                      */
+/* ----------------------------------------------- */
+ .tech-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
+ }
+ .icon-card {
+  font-size: 50px;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 110px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, background-color 0.3s;
+  cursor: pointer;
+   background-color:  var(--accent-color);
+}
+
+.icon-card:hover {
+  transform: scale(1.1);
+  border: 8px solid color-mix(in srgb, var(--default-color), transparent 85%);
+}
+
+
+.icon-card span {
+  margin-top: 0.5rem;
+  font-size: 18px;
+ 
+}
+
+.link-contacto{
+    color: var(--color-bg);
+    font-size: 30px;
+    display: flex;
+    justify-content:end;
+    align-items: center; 
+    font-weight: 900;
+    margin-right: 20px;
+    text-decoration:underline;
+    margin-bottom: 20PX;
+}
+
+.heading{
+    color: var(--contrast-color);
+    background: var(--accent-color-degradado);
+    border: 0;
+    padding: 10px 30px;
+    transition: 0.4s;
+    border-radius: 50px;
+}

@@ -1,0 +1,85 @@
+/* ----------------------------------------------- */
+/* SEARCH BAR                                          */
+/* ----------------------------------------------- */
+
+.search-bar {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color:var(--color-bg);
+   
+    border-radius: 20px;
+    width: 40px;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 9999;
+    .menu-toogle{
+            width: 40px;
+            height: 40px;
+            padding: 8px;
+        }
+   
+    /* TABLET ->  max 576px  */
+    @media screen and (min-width: 576px){
+        .menu-toogle{
+            width: 40px;
+            height: 40px;
+        }
+    }
+    /* responsivo ->  max 992px  */
+    @media screen and (min-width: 992px){
+       .menu-toogle{
+            width: 60px;
+            
+        }
+   }
+    /* DESKTOP ->  max 1200px  */
+    @media screen and (min-width: 1200px){
+        display:none;
+        .menu-toogle{
+            display:none ;
+        }
+}
+}
+ 
+
+/* ----------------------------------------------- */
+/* MENU TOOGLE                                        */
+/* ----------------------------------------------- */
+/* MOBILE FIRST */
+
+.menu-toogle{
+    flex: 0 0 1rem; /*  0 0 3rem no crecerá, no se encogerá, y tendrá un tamaño base de 3rem*/
+    position: relative;
+    cursor:pointer;
+    &__label { /* .menu-toogle__label */
+        display: block;
+        height: 100%;
+    }
+    &__top-bread,
+    &__meat,
+    &__bottom-bread{
+        display: block;
+        background-color: white;
+        height: .1rem;
+        position:absolute;
+        left: 0rem;
+        right: 0rem;
+    }
+    &__top-bread{
+        margin-top: 0.1rem
+    }
+    &__meat { /*Centrar sin usar flexbox */
+        top:50%; /*Se centre al 50% del elemento (vertical)*/
+        margin-top: -0.1rem; /*al left le resto la mitad lo que mide */
+    }
+    &__bottom-bread{
+        bottom: 0.25rem;
+        margin-bottom: 8px;
+    }
+}
+.close{
+    color: var(--color-text);
+    font-size: 0px;
+}

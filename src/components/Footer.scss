@@ -1,0 +1,42 @@
+:root { 
+--background-color: #ffffff; 
+--color-bg: #796504;
+--color-text: #f3f4f6;
+--default-color: #272829;
+--accent-color: #A38F2D; 
+--accent-color-degradado: #a38f2d7a; 
+--surface-color: #F5F5F5;
+--contrast-color: #2E2E2E; 
+}
+ 
+ /* ----------------------------------------------- */
+/* FOOTER                                         */
+/* ----------------------------------------------- */
+/* MOBILE FIRST */
+.footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: var(--default-color);
+    background-color: var(--accent-color-degradado);
+    font-size: 20px;
+    padding: 40px 5px;
+    position:static; 
+    bottom: 0;
+    font-weight: 900;
+    border-top: 1px solid
+   color-mix(in srgb, var(--default-color), transparent 90%);
+     filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+    @media screen and (min-width: 1200px){
+        margin-left: 300px;
+}
+}
+
+.descripcion-footer{
+     font-size: 18px;
+     color: var(--background-color);
+      @media screen and (min-width: 1200px){
+        margin-left: 0px;
+        font-size: 28px;
+}
+}

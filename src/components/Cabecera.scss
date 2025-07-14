@@ -1,0 +1,41 @@
+/* ----------------------------------------------- */
+/* HEADER                                          */
+/* ----------------------------------------------- */
+/* MOBILE FIRST */
+
+
+.main-header{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+
+#menu {
+    display: none;
+
+    /* Hacer funcionar el checkbox -> Hacer funcionar el menú hamburgüesa */
+    &:checked + .nav-bar {
+         display:flex;
+    }
+
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors */
+    &:checked ~ .search-bar .menu-toogle .menu-toogle__label {
+           color:var(--color-bg);
+           display: none;
+    }
+
+    
+    &:checked ~ .search-bar  .close{
+        font-size: 30px;
+       
+    }
+     &:checked ~ .search-bar .menu-toogle{
+        padding: 0px;
+     }
+
+
+}
+
+
+
