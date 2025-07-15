@@ -6,6 +6,7 @@ const Cabecera = () => {
   return (
     <header className="main-header">
     <input type="checkbox" id="menu"/>
+  
     <Navbar />
 
    <SearchBar/>

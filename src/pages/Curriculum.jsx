@@ -7,6 +7,7 @@ const Curriculum = () => {
           <h1>Curriculum</h1>
       </header>
       
+      
     </div>
   )
 }

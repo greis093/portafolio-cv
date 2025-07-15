@@ -9,8 +9,6 @@
     flex-direction: column-reverse;
 }
 
-
-
 #menu {
     display: none;
 
@@ -18,24 +16,32 @@
     &:checked + .nav-bar {
          display:flex;
     }
+    /* Cambiar posicion de la X en el search-bar */
+    &:checked ~ .search-bar{
+        left: 180px;
+        @media screen and (min-width: 576px) {
+           left: 230px; 
+        }
 
-    /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors */
+    }
+    /* el menu hamburguesa desaparesca*/
     &:checked ~ .search-bar .menu-toogle .menu-toogle__label {
            color:var(--color-bg);
            display: none;
     }
 
-    
+    /* Cambiar la X en el menu hamburguesa */
     &:checked ~ .search-bar  .close{
         font-size: 30px;
        
     }
+    /* cambiar x en el menu */
      &:checked ~ .search-bar .menu-toogle{
         padding: 0px;
      }
 
-
 }
+
 
 
 

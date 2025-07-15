@@ -37,9 +37,9 @@ const Navbar = () => {
           <i className="bi bi-globe"></i>
         </a>
       </div>
-      <ul className="nav-bar__nav-list">
+      <label  className="nav-bar__nav-list">
        {/* Menu*/}
-          <nav  >
+          <div  >
             <ul className='nav-bar__ul_nav'>
               <li className="nav-bar__nav-item">
                 <NavLink
@@ -78,8 +78,8 @@ const Navbar = () => {
                 </NavLink>
               </li>
             </ul>
-          </nav>
-      </ul>
+          </div>
+      </label>
     </nav> 
   )
 }
