@@ -20,7 +20,7 @@
     color: var(--default-color);
     background-color: var(--accent-color-degradado);
     font-size: 20px;
-    padding: 40px 5px;
+    padding: 10px 5px;
     position:static; 
     bottom: 0;
     font-weight: 900;
@@ -29,14 +29,15 @@
      filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
     @media screen and (min-width: 1200px){
         margin-left: 300px;
+        padding: 15px 5px;
 }
 }
 
 .descripcion-footer{
-     font-size: 18px;
+     font-size: 12px;
      color: var(--background-color);
       @media screen and (min-width: 1200px){
         margin-left: 0px;
-        font-size: 28px;
+        font-size: 25px;
 }
 }

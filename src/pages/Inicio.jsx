@@ -48,7 +48,7 @@ const Inicio = () => {
           <span>Node.js</span>
         </div>
         <div className="icon-card">
-          <SiMongodb title="MongoDB" style={{ fontSize: '50px' }}/>
+          <SiMongodb title="MongoDB"/>
           <span>MongoDB</span>
         </div>
         <div className="icon-card">

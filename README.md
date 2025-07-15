@@ -1,8 +1,8 @@
 # Nombre : Yirley Agreda Pachecho
 
-# Github:
+# Github: https://github.com/greis093/portafolio-cv
 
-# Netlify :
+# Netlify :https://greicyagreda.netlify.app/
 
 ## Pasos para crear un proyecto en REACT
 
