@@ -20,12 +20,11 @@ const Inicio = () => {
             <h1>¡Hola! </h1>
         </header>
       <h2>
-        “Soy Greicy Agreda Pacheco” <br/>
         Desarrolladora Front-End | Full Stack Junior | Analista con enfoque en
         optimización
       </h2>
        
-      <p className="max-w-2xl text-base md:text-lg mb-8">
+      <p className="text-base">
         Soy desarrolladora web con formación universitaria en
         <strong> Investigación Operativa (UNMSM)</strong>, apasionada por la
         creación de soluciones digitales optimizadas y visualmente atractivas.

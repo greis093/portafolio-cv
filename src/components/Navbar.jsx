@@ -37,19 +37,21 @@ const Navbar = () => {
           <i className="bi bi-globe"></i>
         </a>
       </div>
-      <label  className="nav-bar__nav-list">
+      <div>
+ 
        {/* Menu*/}
-          <div  >
-            <ul className='nav-bar__ul_nav'>
+       <nav>
+       <ul className='nav-bar__ul_nav'>     
               <li className="nav-bar__nav-item">
                 <NavLink
                   to="/"
                   className={({ isActive }) => (isActive ? "active" : "")}
                 >
-                  <i className="bi bi-house navicon "></i>
+                  <i className="bi bi-house navicon "/>
                   Inicio
-                </NavLink>
+                </NavLink>     
               </li>
+              
               <li className="nav-bar__nav-item">
                 <NavLink
                   to="/portafolio"
@@ -78,8 +80,8 @@ const Navbar = () => {
                 </NavLink>
               </li>
             </ul>
-          </div>
-      </label>
+            </nav>
+      </div>
     </nav> 
   )
 }

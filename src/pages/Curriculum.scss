@@ -1,0 +1,96 @@
+
+.strong{
+ font-size: 18px;
+ margin: 10px 0px;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ @media screen and (min-width: 576px){
+   font-size: 35px; 
+   margin: 10px 8px;
+ }
+}
+.datos-principales div{
+ color:var(--default-color);
+ font-size: 13px;
+ margin: 5px 3px;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ @media screen and (min-width: 576px){
+   font-size: 20px; 
+    margin: 10px 20px;
+ }
+ 
+}
+.datos-principales a{
+    color:var(--color-bg);
+}
+.perfil-profesional h3{
+ color:var(--default-color);
+ padding-top:2px;
+ margin-left: 10px;
+ font-size: 20px;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ @media screen and (min-width: 576px){
+ margin-left: 12px;
+ padding-top: 3px;
+ font-size: 25px; 
+ }
+ @media screen and (min-width: 768px){
+ margin-left: 20px;
+ padding-top: 10px;
+ font-size: 28px;
+ }
+}
+em{
+   color:var(--color-bg); 
+}
+.carrera {
+    margin-top: 15px;
+ color:var(--color-bg); 
+ font-size: 17px;
+ margin-left: 3px;
+ @media screen and (min-width: 576px){
+ font-size: 22px;
+ margin-left: 20px;   
+ }
+ @media screen and (min-width: 768px){
+ font-size: 25px;
+ margin-left: 30px; 
+ }
+}
+
+.detalle {
+  color:var(--default-color); 
+  font-size: 14px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding-bottom: 10px;
+  @media screen and (min-width: 576px){
+ font-size: 20px;   
+ }
+}
+.detalle li {
+    margin-left: 15px;
+    padding-top: 10px;
+    color:var(--default-color); 
+    list-style-position: inside;
+    @media screen and (min-width: 576px){
+      margin-left: 30px;  
+    }
+}
+
+.curso-complementario{
+    color:var(--default-color);
+    margin-left: 10px;
+    font-size: 18px;
+    @media screen and (min-width: 576px){
+     font-size: 25px; 
+     margin-left: 15px;  
+    }
+}
+.detalle-curso{
+    color:var(--color-bg);
+    margin-left: 15px;
+    font-size: 10px;
+    @media screen and (min-width: 576px){
+      margin-left: 55px;
+      font-size: 15px;  
+    }
+}

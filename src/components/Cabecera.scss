@@ -11,6 +11,8 @@
 
 #menu {
     display: none;
+    /* boton en los menus de la barra navbar */
+   
 
     /* Hacer funcionar el checkbox -> Hacer funcionar el menú hamburgüesa */
     &:checked + .nav-bar {
