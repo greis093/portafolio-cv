@@ -52,12 +52,26 @@ const Datos_portafolio = () => {
         </div>
         <div className="portafolio__values">
           <div className="portafolio__values__foto">
-             <img src="/imgs/floreria.webp" alt="foto" className='portafolio__img'/>
+             <img src="/imgs/cv.webp" alt="foto" className='portafolio__img'/>
           </div>
         <div className="portafolio__values__text">
-          <h3>Horario</h3>
-          <p>Lunes a Sábado de 9:00 am – 6:00 pm. Domingos y feriados de 10am a 2pm.</p>
-        </div>
+               <h3 className="portafolio__values__text__h3">Proyecto currículum vitae</h3>
+                <p className="portafolio__values__text__sub">Aplicación Web en react : desplegado en Netlify</p>
+                <ul className="portafolio__values__text__lista">
+                <li>Programado en react</li> 
+                <li>Guardado en Github y desplegado en Netlify</li>
+                <li>Creación del diseño visual del sitio adaptado vista pc y mobil</li>
+                </ul>
+                   {/* Social links*/}
+              <div className="social-links-portafolio">
+                <a href="https://github.com/greis093/portafolio-cv" aria-label="github">
+                  <i className="bi bi-github"></i>
+                </a>
+                <a href="https://greicyagreda.netlify.app/" aria-label="netlify">
+                  <i className="bi bi-globe"></i>
+                </a>
+              </div>
+            </div>
       </div>
 
   </div>
