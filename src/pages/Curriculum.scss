@@ -94,3 +94,50 @@ em{
       font-size: 15px;  
     }
 }
+.detalle-experiencia b{
+    color:var(--default-color);
+    margin-left: 0px;
+    font-size: 20px;
+    padding-top: 22px;
+    @media screen and (min-width: 576px){
+     margin-left: 30px;
+    font-size: 25px;   
+    }
+}
+.detalle-experiencia span{
+    display: none;
+    color:var(--color-bg);
+    font-size: 20px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+  }
+  th {
+    text-align: left;
+    background-color: #f2f2f2;
+    color:var(--color-bg);
+    border: 2px dotted var(--color-bg);
+    @media screen and (min-width: 576px){
+        font-size: 20px;
+        padding: 10px 8px;
+    }
+  }
+  td {
+    border: 2px dotted var(--color-bg);
+    border-bottom: 1px solid #ddd;
+    color:var(--default-color);
+    @media screen and (min-width: 576px){
+        font-size: 20px;
+        padding: 10px 8px;
+    }
+  }
+  .detalle-habilidades{
+    color:var(--default-color);
+    margin-left: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }

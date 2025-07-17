@@ -24,7 +24,9 @@ const Curriculum = () => {
         con proyectos reales desarrollados y desplegados con React, Node.js, Express y MongoDB.  
         Me especializo en interfaces responsivas y despliegue en la nube, y busco oportunidades 
         como Front‑End Developer para continuar construyendo soluciones digitales con impacto.</p>
+      <br/>
       </section>
+
       <hr/>
       <section className='perfil-profesional'>
         <h3>🎓 Formación Académica y Cursos</h3>
@@ -77,7 +79,102 @@ const Curriculum = () => {
         </ul>
         <i className='detalle-curso'>Udemy  | Expedición: abr. 2020 | UC-d97162c1-42d9-481d-b6f1-f5e775ddcc87</i>
       </div>
+       <b className='curso-complementario'> ✒️Idiomas:</b>
+         <div className='detalle'>
+          <ul>
+            <li>Español (nativo)</li>
+            <li>Inglés (intermedio)</li>
+            <li>Francés (intermedio)</li>
+          </ul>
+          <br/>
+        </div>
       </section> 
+      <hr/>
+      <section className='perfil-profesional'>
+        <h3>💼 Experiencia Profesional</h3>
+        <br/>
+        <div className='detalle-experiencia'>
+         <b>Fundadora y Gestora Digital</b>  
+         <span>D’Goyita (pastelería familiar) – Lima | Mar 2020 – Abr 2022</span>
+         <div className='detalle'>
+          <ul>
+            <li>Desarrollé una página web responsive en WordPress con pago online.</li>
+            <li>Implementé SEO básico y conexión con redes sociales.</li>
+            <li>Gestioné autogestión del negocio y atención al cliente donde se incremento del 60% en pedidos online gracias a visibilidad web.</li>
+          </ul>
+          <br/>
+        </div>
+      </div>
+      <br/>
+      <div className='detalle-experiencia'>
+         <b>Consultora de SGI</b>  
+         <span>Sigma Quality S.R.L. – Lima | Oct 2019 – Feb 2020</span>
+         <div className='detalle'>
+          <ul>
+            <li>Documenté y optimicé procesos para certificación ISO en CENTRUM PUCP.</li>
+            <li>Coordine esa mejora transversalmente con todas las áreas donde el cliente obtuvo certificación ISO‑9001 en el área de DARSA</li>
+          </ul>
+          <br/>
+        </div>
+      </div>
+      <br/>
+      <div className='detalle-experiencia'>
+         <b>Coordinadora de Proyectos</b> 
+         <span>Edú Holding Group – Lima | Mar 2017 – Jul 2018</span>
+         <div className='detalle'>
+          <ul>
+            <li>Coordiné procesos interdepartamentales (Operaciones, Logística, TI).</li>
+            <li>Lideré el desarrollo e implementación de sistema interno con MongoDB, JS, Express y GCP.</li>
+            <li>Automatice reportes de entregas y ventas para área comercial y gerencial.</li>
+            <li>Creé con macros reportes clave, reduciendo tiempos en análisis de KPIs donde 40% en tiempos de generación de dashboard gerencial</li>
+          </ul>
+          <br/>
+        </div>
+      </div>
+      </section>
+       <hr/>
+      <section className='perfil-profesional'>
+        <h3>🔧 Habilidades Técnicas</h3>
+        <div>
+          <table>
+            <tr>
+            <th>Tecnologías Front-End</th>
+            <th>Tecnologías Back-End</th>
+            <th>Herramientas & Otros</th>
+          </tr>
+          <tr>
+            <td>HTML, CSS/SASS</td>
+            <td>Node.js, Express.js</td>
+            <td>Git, GitHub</td>
+          </tr>
+          <tr>
+            <td>JavaScript (ES6+)</td>
+            <td>MongoDB Atlas</td>
+            <td>Netlify, Render</td>
+          </tr>
+          <tr>
+            <td>React</td>
+            <td>REST API</td>
+            <td>MongoDB Compass</td>
+          </tr>
+          <tr>
+            <td>Responsive Design</td>
+            <td>Pruebas: Jest/Mocha</td>
+            <td>SEO, WordPress</td>
+          </tr>
+        </table>
+        <br/>
+        </div>
+        </section>
+         <hr/>
+        <section className='perfil-profesional'>
+        <h3>💡 Habilidades Blandas</h3>
+        <div className='detalle-experiencia'>
+          <div className='detalle-habilidades'>
+              Liderazgo, trabajo en equipo, comunicación con stakeholders, autogestión, atención al cliente.
+          </div>
+         </div> 
+        </section>
     </div>
   )
 }
