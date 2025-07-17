@@ -16,7 +16,7 @@ const Curriculum = () => {
       <hr/>
       <section className='perfil-profesional'>
         <h3>✨Perfil Profesional</h3>
-        <p>Profesional con formación <strong>Investigación Operativa</strong> por la 
+        <p>Profesional con formación en <strong>Investigación Operativa</strong> por la 
         <em> Universidad Nacional Mayor de San Marcos</em>,
         esta base universitaria me ha permitido desarrollar una mentalidad estructurada y orientada a la optimización,
         que ahora aplico en el desarrollo de soluciones digitales. con experiencia en gestión de proyectos y consultoría. 

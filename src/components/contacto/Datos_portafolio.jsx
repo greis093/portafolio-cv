@@ -59,7 +59,7 @@ const Datos_portafolio = () => {
                 <p className="portafolio__values__text__sub">Aplicación Web en react : desplegado en Netlify</p>
                 <ul className="portafolio__values__text__lista">
                 <li>Programado en react</li> 
-                <li>Guardado en Github y desplegado en Netlify</li>
+                <li>Desarrollo en repos independientes con Git + GitHub y desplegado en Netlify</li>
                 <li>Creación del diseño visual del sitio adaptado vista pc y mobil</li>
                 </ul>
                    {/* Social links*/}
