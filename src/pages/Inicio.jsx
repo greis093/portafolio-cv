@@ -17,7 +17,7 @@ const Inicio = () => {
     <main>
       <div className="home">
         <header className='cabecera'>
-            <h1>¡Hola! </h1>
+            <h1>¡Hola soy Greicy!</h1>
         </header>
       <h2>
         Desarrolladora Front-End | Full Stack Junior | Analista con enfoque en
