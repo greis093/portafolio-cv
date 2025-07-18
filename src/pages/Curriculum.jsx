@@ -8,7 +8,7 @@ const Curriculum = () => {
       </header>
       <section  className='datos-principales'>
         <strong className='strong'>Yirley Greicy Agreda Pacheco</strong>
-          <h2>Front‑End Deve5loper en Transición | Ingeniería de Datos & Full Stack</h2>
+          <h2>Front‑End Developer en Transición | Ingeniería de Datos & Full Stack</h2>
           <div>📍 Lima, Perú</div>
           <div>📧 agreda.pacheco@gmail.com</div>
           <div>🌐 Linkedin:<a href='https://www.linkedin.com/in/greicy-agreda-pacheco-426969121/'>Greicy Agreda</a></div>
@@ -94,8 +94,8 @@ const Curriculum = () => {
         <h3>💼 Experiencia Profesional</h3>
         <br/>
         <div className='detalle-experiencia'>
-         <b>Fundadora y Gestora Digital</b>  
-         <span>D’Goyita (pastelería familiar) – Lima | Mar 2020 – Abr 2022</span>
+         <b>Fundadora y Gestora Digital</b><br/>  
+         <i  className='detalle'>D’Goyita (pastelería familiar) – Lima | Mar 2020 – Abr 2022</i>
          <div className='detalle'>
           <ul>
             <li>Desarrollé una página web responsive en WordPress con pago online.</li>
@@ -107,8 +107,8 @@ const Curriculum = () => {
       </div>
       <br/>
       <div className='detalle-experiencia'>
-         <b>Consultora de SGI</b>  
-         <span>Sigma Quality S.R.L. – Lima | Oct 2019 – Feb 2020</span>
+         <b>Consultora de SGI</b>  <br/>
+         <i  className='detalle'>Sigma Quality S.R.L. – Lima | Oct 2019 – Feb 2020</i>
          <div className='detalle'>
           <ul>
             <li>Documenté y optimicé procesos para certificación ISO en CENTRUM PUCP.</li>
@@ -119,8 +119,8 @@ const Curriculum = () => {
       </div>
       <br/>
       <div className='detalle-experiencia'>
-         <b>Coordinadora de Proyectos</b> 
-         <span>Edú Holding Group – Lima | Mar 2017 – Jul 2018</span>
+         <b>Coordinadora de Proyectos</b> <br/>
+         <i  className='detalle'>Edú Holding Group – Lima | Mar 2017 – Jul 2018</i>
          <div className='detalle'>
           <ul>
             <li>Coordiné procesos interdepartamentales (Operaciones, Logística, TI).</li>
