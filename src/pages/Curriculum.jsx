@@ -95,7 +95,7 @@ const Curriculum = () => {
         <br/>
         <div className='detalle-experiencia'>
          <b>Fundadora y Gestora Digital</b>
-         <div className='detalle'> 
+         <div className='carrera'> 
          <i  className='detalle'>D’Goyita (pastelería familiar) – Lima | Mar 2020 – Abr 2022</i>
          </div> 
          <div className='detalle'>
@@ -110,7 +110,7 @@ const Curriculum = () => {
       <br/>
       <div className='detalle-experiencia'>
          <b>Consultora de SGI</b>
-         <div className='detalle'>
+         <div className='carrera'>
          <i  className='detalle'>Sigma Quality S.R.L. – Lima | Oct 2019 – Feb 2020</i>
          </div>
          <div className='detalle'>
@@ -124,7 +124,7 @@ const Curriculum = () => {
       <br/>
       <div className='detalle-experiencia'>
          <b>Coordinadora de Proyectos</b>
-         <div className='detalle'>
+         <div className='carrera'>
          <i  className='detalle'>Edú Holding Group – Lima | Mar 2017 – Jul 2018</i>
          </div>
          <div className='detalle'>
