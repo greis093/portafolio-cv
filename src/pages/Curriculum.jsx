@@ -94,8 +94,10 @@ const Curriculum = () => {
         <h3>💼 Experiencia Profesional</h3>
         <br/>
         <div className='detalle-experiencia'>
-         <b>Fundadora y Gestora Digital</b><br/>  
+         <b>Fundadora y Gestora Digital</b>
+         <div className='detalle'> 
          <i  className='detalle'>D’Goyita (pastelería familiar) – Lima | Mar 2020 – Abr 2022</i>
+         </div> 
          <div className='detalle'>
           <ul>
             <li>Desarrollé una página web responsive en WordPress con pago online.</li>
@@ -107,8 +109,10 @@ const Curriculum = () => {
       </div>
       <br/>
       <div className='detalle-experiencia'>
-         <b>Consultora de SGI</b>  <br/>
+         <b>Consultora de SGI</b>
+         <div className='detalle'>
          <i  className='detalle'>Sigma Quality S.R.L. – Lima | Oct 2019 – Feb 2020</i>
+         </div>
          <div className='detalle'>
           <ul>
             <li>Documenté y optimicé procesos para certificación ISO en CENTRUM PUCP.</li>
@@ -119,8 +123,10 @@ const Curriculum = () => {
       </div>
       <br/>
       <div className='detalle-experiencia'>
-         <b>Coordinadora de Proyectos</b> <br/>
+         <b>Coordinadora de Proyectos</b>
+         <div className='detalle'>
          <i  className='detalle'>Edú Holding Group – Lima | Mar 2017 – Jul 2018</i>
+         </div>
          <div className='detalle'>
           <ul>
             <li>Coordiné procesos interdepartamentales (Operaciones, Logística, TI).</li>
