@@ -6,7 +6,7 @@ const Servicios = () => {
   return (
     <div className="home">
             <header className='cabecera'>
-                    <h2>Servicios</h2>
+                    <h1>Servicios</h1>
         </header>
         <section className="servicios-container">
             <div className="description">
