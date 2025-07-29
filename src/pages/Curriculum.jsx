@@ -4,7 +4,7 @@ const Curriculum = () => {
   return (
     <div className="home">
       <header className='cabecera'>
-          <h1>Curriculum</h1>
+          <h2>Curriculum</h2>
       </header>
       <section  className='datos-principales'>
         <strong className='strong'>Yirley Greicy Agreda Pacheco</strong>
