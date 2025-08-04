@@ -4,11 +4,11 @@ const Curriculum = () => {
   return (
     <div className="home">
       <header className='cabecera'>
-          <h2>Curriculum</h2>
+          <h1>Curriculum</h1>
       </header>
       <section  className='datos-principales'>
         <strong className='strong'>Yirley Greicy Agreda Pacheco</strong>
-          <h2>Front‑End Developer en Transición | Ingeniería de Datos & Full Stack</h2>
+          <h2>Front‑End Developer | Full Stack</h2>
           <div>📍 Lima, Perú</div>
           <div>📧 agreda.pacheco@gmail.com</div>
           <div>🌐 Linkedin:<a href='https://www.linkedin.com/in/greicy-agreda-pacheco-426969121/'>Greicy Agreda</a></div>
