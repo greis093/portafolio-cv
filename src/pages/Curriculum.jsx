@@ -94,6 +94,21 @@ const Curriculum = () => {
         <h3>💼 Experiencia Profesional</h3>
         <br/>
         <div className='detalle-experiencia'>
+         <b>Desarrolladora Web</b>
+         <div className='carrera'> 
+         <i  className='detalle'> Wakin Be – Lima | Sept 2025 – Actualidad</i>
+         </div> 
+         <div className='detalle'>
+          <ul>
+            <li>Mantenimiento y desarrollo de nuevas funcionalidades ( Wordpress, Javascript, PHP)</li>
+            <li>Análisis he implementación de SEO (Google Analytics, Search Console, ADs).</li>
+            <li>Implementación de chatbot de IA..</li>
+          </ul>
+          <br/>
+        </div>
+      </div>
+        <br/>
+        <div className='detalle-experiencia'>
          <b>Fundadora y Gestora Digital</b>
          <div className='carrera'> 
          <i  className='detalle'>D’Goyita (pastelería familiar) – Lima | Mar 2020 – Abr 2022</i>
