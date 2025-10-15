@@ -100,9 +100,9 @@ const Curriculum = () => {
          </div> 
          <div className='detalle'>
           <ul>
-            <li>Mantenimiento y desarrollo de nuevas funcionalidades ( Wordpress, Javascript, PHP)</li>
-            <li>Análisis he implementación de SEO (Google Analytics, Search Console, ADs).</li>
-            <li>Implementación de chatbot de IA..</li>
+            <li>Mantenimiento y desarrollo de nuevas funcionalidades.</li>
+            <li>Análisis he implementación de SEO Técnico.</li>
+            <li>Implementación de chatbot de IA.</li>
           </ul>
           <br/>
         </div>
