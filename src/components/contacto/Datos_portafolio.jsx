@@ -60,7 +60,7 @@ const Datos_portafolio = () => {
                 <ul className="portafolio__values__text__lista">
                 <li>Programado en react</li> 
                 <li>Desarrollo en repos independientes con Git + GitHub y desplegado en Netlify</li>
-                <li>Creación del diseño visual del sitio adaptado vista pc y mobil</li>
+                <li>Creación del diseño visual del sitio adaptado vista pc y movil</li>
                 </ul>
                    {/* Social links*/}
               <div className="social-links-portafolio">
