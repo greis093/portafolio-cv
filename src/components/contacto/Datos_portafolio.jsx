@@ -74,6 +74,27 @@ const Datos_portafolio = () => {
             </div>
       </div>
 
+      <div className="portafolio__values">
+            <div className="portafolio__values__foto">
+              <img src="/imgs/wakinbe.webp" alt="foto" className='portafolio__img'/>
+            </div>
+            <div className="portafolio__values__text">
+               <h3 className="portafolio__values__text__h3">Proyecto Wakinbe</h3>
+                <p className="portafolio__values__text__sub">Aplicación Web wordpress : Mantenimiento y desarrollo de nuevas funcionalidades ( Wordpress, Javascript, PHP)</p>
+                <ul className="portafolio__values__text__lista">
+                <li>Implementación de chatbot de IA.</li> 
+                <li>Análisis he implementación de SEO (Google Analytics, Search Console, ADs).</li>
+                <li>Implemetación boton de whatsApp</li>
+                <li>Creación del diseño visual del sitio adaptado vista pc y mobil</li>
+                </ul>
+                   {/* Social links*/}
+              <div className="social-links-portafolio">
+                <a href="https://drive.google.com/drive/folders/1RupqWJgTMseeWFptBoNfvTPccA86z6sb?usp=drive_link" aria-label="github">
+                  <i className="bi bi-card-image"></i>
+                </a>
+              </div>
+            </div>
+        </div>
   </div>
   )
 }
