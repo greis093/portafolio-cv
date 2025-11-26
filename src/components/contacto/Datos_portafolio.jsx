@@ -89,8 +89,8 @@ const Datos_portafolio = () => {
                 </ul>
                    {/* Social links*/}
               <div className="social-links-portafolio">
-                <a href="https://drive.google.com/drive/folders/1RupqWJgTMseeWFptBoNfvTPccA86z6sb?usp=drive_link" aria-label="github">
-                  <i className="bi bi-card-image"></i>
+                <a href="https://www.wakinbe.com/" aria-label="wakinbe">
+                  <i class="bi bi-browser-chrome"></i>
                 </a>
               </div>
             </div>
