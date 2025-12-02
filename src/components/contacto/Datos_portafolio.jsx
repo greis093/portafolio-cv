@@ -40,7 +40,7 @@ const Datos_portafolio = () => {
                 <li>Optimización SEO (estructura, metadatos, velocidad)</li> 
                 <li>Integración de pagos online con Mercado Pago</li>
                 <li>Configuración completa de una tienda virtual funcional</li>
-                <li>Creación del diseño visual del sitio adaptado vista pc y mobil</li>
+                <li>Creación del diseño visual del sitio adaptado vista pc y movil</li>
                 </ul>
                    {/* Social links*/}
               <div className="social-links-portafolio">
@@ -85,7 +85,7 @@ const Datos_portafolio = () => {
                 <li>Implementación de chatbot de IA.</li> 
                 <li>Análisis he implementación de SEO (Google Analytics, Search Console, ADs).</li>
                 <li>Implemetación boton de whatsApp</li>
-                <li>Creación del diseño visual del sitio adaptado vista pc y mobil</li>
+                <li>Creación del diseño visual del sitio adaptado vista pc y movil</li>
                 </ul>
                    {/* Social links*/}
               <div className="social-links-portafolio">

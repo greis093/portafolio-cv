@@ -112,7 +112,7 @@ const Inicio = () => {
                 <li>Optimización SEO (estructura, metadatos, velocidad)</li> 
                 <li>Integración de pagos online con Mercado Pago</li>
                 <li>Configuración completa de una tienda virtual funcional</li>
-                <li>Creación del diseño visual del sitio adaptado vista pc y mobil</li>
+                <li>Creación del diseño visual del sitio adaptado vista pc y movil</li>
                 </ul>
                    {/* Social links*/}
               <div className="social-links-portafolio">
