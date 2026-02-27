@@ -94,6 +94,23 @@ const Curriculum = () => {
         <h3>💼 Experiencia Profesional</h3>
         <br/>
         <div className='detalle-experiencia'>
+         
+         <b>Desarrolladora Web</b>
+         <div className='carrera'> 
+         <i  className='detalle'> Wakin Be – Lima | Sept 2025 – Actualidad</i>
+         </div> 
+         <div className='detalle'>
+          <ul>
+            <li>Mantenimiento y desarrollo de nuevas funcionalidades.</li>
+            <li>Análisis he implementación de SEO Técnico.</li>
+            <li>Implementación de chatbot de IA.</li>
+          </ul>
+          <br/>
+        </div>
+      </div>
+      <br/>
+        <div className='detalle-experiencia'>
+         
          <b>Desarrolladora Web</b>
          <div className='carrera'> 
          <i  className='detalle'> Wakin Be – Lima | Sept 2025 – Actualidad</i>
