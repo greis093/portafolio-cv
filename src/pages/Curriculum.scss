@@ -121,14 +121,14 @@ table {
     text-align: left;
     background-color: #f2f2f2;
     color:var(--color-bg);
-    border: 2px dotted var(--color-bg);
+    border: 2px solid var(--color-bg);
     @media screen and (min-width: 576px){
         font-size: 20px;
         padding: 10px 8px;
     }
   }
   td {
-    border: 2px dotted var(--color-bg);
+    border: 2px solid var(--color-bg);
     border-bottom: 1px solid #ddd;
     color:var(--default-color);
     @media screen and (min-width: 576px){
