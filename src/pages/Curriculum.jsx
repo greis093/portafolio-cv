@@ -97,13 +97,13 @@ const Curriculum = () => {
          
          <b>Desarrolladora Web</b>
          <div className='carrera'> 
-         <i  className='detalle'> Wakin Be – Lima | Sept 2025 – Actualidad</i>
+         <i  className='detalle'> Agencia Jiga  – Lima | Ene 2026 – Actualidad</i>
          </div> 
          <div className='detalle'>
           <ul>
-            <li>Mantenimiento y desarrollo de nuevas funcionalidades.</li>
-            <li>Análisis he implementación de SEO Técnico.</li>
-            <li>Implementación de chatbot de IA.</li>
+            <li>Diseño y programación de temas personalisados responsive (PHP, CSS ygt HMTL5).</li>
+            <li>Optimización (WPO).</li>
+            <li>Integraciones (CRMs y ERPs).</li>
           </ul>
           <br/>
         </div>
