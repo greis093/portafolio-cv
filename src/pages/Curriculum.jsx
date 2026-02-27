@@ -173,6 +173,8 @@ const Curriculum = () => {
        <hr/>
       <section className='perfil-profesional'>
         <h3>🔧 Habilidades Técnicas</h3>
+        <br />
+        <br />
         <div>
           <table>
             <tr>
@@ -201,9 +203,10 @@ const Curriculum = () => {
             <td>SEO, WordPress</td>
           </tr>
         </table>
+        <br />
         <br/>
         </div>
-        </section>
+       </section>
          <hr/>
         <section className='perfil-profesional'>
         <h3>💡 Habilidades Blandas</h3>
